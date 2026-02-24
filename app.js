@@ -5,6 +5,7 @@ let spellLibrary = [];
 let spellLibraryById = {};
 let saveGame = null;
 let xmlDoc = null;
+let activeWandIndex = 0;
 
 class Card {
   constructor(element) {
@@ -332,30 +333,7 @@ function renderSpellLibrary() {
     const typeClass = getSpellTypeClass(s.type);
     if (typeClass) tile.classList.add(typeClass);
 
-    const img = document.createElement('img');
-    img.className = 'spell-icon';
-    img.alt = s.id;
-    img.draggable = false;
-
-    const iconSources = [`icons/${s.id}.png`];
-    const lowerSrc = `icons/${s.id.toLowerCase()}.png`;
-    if (!iconSources.includes(lowerSrc)) iconSources.push(lowerSrc);
-    const upperSrc = `icons/${s.id.toUpperCase()}.png`;
-    if (!iconSources.includes(upperSrc)) iconSources.push(upperSrc);
-
-    let iconIdx = 0;
-    const tryNextIconSrc = () => {
-      if (iconIdx < iconSources.length) {
-        img.src = iconSources[iconIdx++];
-      } else {
-        img.onerror = null;
-      }
-    };
-    img.onerror = () => {
-      tryNextIconSrc();
-    };
-    tryNextIconSrc();
-
+    const img = createSpellIconElement(s.id);
     tile.appendChild(img);
 
     tile.addEventListener('dragstart', ev => {
@@ -365,6 +343,40 @@ function renderSpellLibrary() {
 
     grid.appendChild(tile);
   }
+}
+
+function createSpellIconElement(spellId) {
+  const img = document.createElement('img');
+  img.className = 'spell-icon';
+  img.alt = spellId || '';
+  img.draggable = false;
+
+  const candidates = getIconSourceCandidates(spellId);
+  let idx = 0;
+  const tryNext = () => {
+    if (idx < candidates.length) {
+      img.src = candidates[idx++];
+    } else {
+      img.onerror = null;
+    }
+  };
+  img.onerror = () => {
+    tryNext();
+  };
+  tryNext();
+  return img;
+}
+
+function getIconSourceCandidates(spellId) {
+  const id = (spellId || '').trim();
+  const sources = new Set();
+  if (id) {
+    sources.add(`icons/${id}.png`);
+    sources.add(`icons/${id.toLowerCase()}.png`);
+    sources.add(`icons/${id.toUpperCase()}.png`);
+  }
+  sources.add('icons/unidentified.png');
+  return Array.from(sources);
 }
 
 function handleFileSelect(ev) {
@@ -400,10 +412,13 @@ function renderWandPanels() {
     saveGame.sortWandsBySlot();
   }
 
+  const clampedActiveIndex = Math.max(0, Math.min(3, activeWandIndex || 0));
+  activeWandIndex = clampedActiveIndex;
+
   for (let i = 0; i < 4; i++) {
     const wand = saveGame ? saveGame.wands[i] : null;
     const panel = document.createElement('div');
-    panel.className = 'wand-panel' + (i === 0 ? ' active' : '');
+    panel.className = 'wand-panel' + (i === clampedActiveIndex ? ' active' : '');
     panel.dataset.wandIndex = String(i);
 
     const stats = document.createElement('div');
@@ -466,11 +481,7 @@ function renderWandPanels() {
         const spellId = card.actionId;
         const typeClass = getSpellTypeClassById(spellId);
         if (typeClass) slot.classList.add(typeClass);
-        const img = document.createElement('img');
-        img.className = 'spell-icon';
-        img.alt = spellId;
-        img.src = `../icons/${spellId}.png`;
-        img.draggable = false;
+        const img = createSpellIconElement(spellId);
         slot.appendChild(img);
 
         const removeBtn = document.createElement('button');
@@ -610,15 +621,17 @@ function getSpellTypeClassById(spellId) {
 }
 
 function setActiveWandTab(index) {
+  const clamped = Math.max(0, Math.min(3, index));
+  activeWandIndex = clamped;
   const tabs = Array.from(document.querySelectorAll('.wand-tab'));
   tabs.forEach(btn => {
     const idx = parseInt(btn.getAttribute('data-wand-index'), 10);
-    btn.classList.toggle('active', idx === index);
+    btn.classList.toggle('active', idx === clamped);
   });
   const panels = Array.from(document.querySelectorAll('.wand-panel'));
   panels.forEach(panel => {
     const idx = parseInt(panel.dataset.wandIndex, 10);
-    panel.classList.toggle('active', idx === index);
+    panel.classList.toggle('active', idx === clamped);
   });
 }
 
