@@ -1,0 +1,2107 @@
+[
+  {
+    "id": "FUNKY_SPELL",
+    "name": "???",
+    "type": "Projectile"
+  },
+  {
+    "id": "ACIDSHOT",
+    "name": "Acid Ball",
+    "type": "Projectile"
+  },
+  {
+    "id": "ARROW",
+    "name": "Arrow",
+    "type": "Projectile"
+  },
+  {
+    "id": "BALL_LIGHTNING",
+    "name": "Ball Lightning",
+    "type": "Projectile"
+  },
+  {
+    "id": "BIG_MAGIC_SHIELD",
+    "name": "Big Magic Guard",
+    "type": "Projectile"
+  },
+  {
+    "id": "BLACK_HOLE",
+    "name": "Black Hole",
+    "type": "Projectile"
+  },
+  {
+    "id": "BLACK_HOLE_DEATH_TRIGGER",
+    "name": "Black Hole with Death Trigger",
+    "type": "Projectile"
+  },
+  {
+    "id": "MIST_BLOOD",
+    "name": "Blood Mist",
+    "type": "Projectile"
+  },
+  {
+    "id": "BOMB",
+    "name": "Bomb",
+    "type": "Projectile"
+  },
+  {
+    "id": "BOMB_CART",
+    "name": "Bomb Cart",
+    "type": "Projectile"
+  },
+  {
+    "id": "RUBBER_BALL",
+    "name": "Bouncing Burst",
+    "type": "Projectile"
+  },
+  {
+    "id": "BUBBLESHOT",
+    "name": "Bubble Spark",
+    "type": "Projectile"
+  },
+  {
+    "id": "BUBBLESHOT_TRIGGER",
+    "name": "Bubble Spark With Trigger",
+    "type": "Projectile"
+  },
+  {
+    "id": "AIR_BULLET",
+    "name": "Burst Of Air",
+    "type": "Projectile"
+  },
+  {
+    "id": "CHAIN_BOLT",
+    "name": "Chain Bolt",
+    "type": "Projectile"
+  },
+  {
+    "id": "CHAINSAW",
+    "name": "Chainsaw",
+    "type": "Projectile"
+  },
+  {
+    "id": "LASER",
+    "name": "Concentrated Light",
+    "type": "Projectile"
+  },
+  {
+    "id": "CURSED_ORB",
+    "name": "Cursed Sphere",
+    "type": "Projectile"
+  },
+  {
+    "id": "ANTIHEAL",
+    "name": "Deadly Heal",
+    "type": "Projectile"
+  },
+  {
+    "id": "DEATH_CROSS",
+    "name": "Death Cross",
+    "type": "Projectile"
+  },
+  {
+    "id": "POWERDIGGER",
+    "name": "Digging Blast",
+    "type": "Projectile"
+  },
+  {
+    "id": "DIGGER",
+    "name": "Digging Bolt",
+    "type": "Projectile"
+  },
+  {
+    "id": "DISC_BULLET",
+    "name": "Disc Projectile",
+    "type": "Projectile"
+  },
+  {
+    "id": "PIPE_BOMB",
+    "name": "Dormant Crystal",
+    "type": "Projectile"
+  },
+  {
+    "id": "PIPE_BOMB_DEATH_TRIGGER",
+    "name": "Dormant Crystal With Trigger",
+    "type": "Projectile"
+  },
+  {
+    "id": "GRENADE_LARGE",
+    "name": "Dropper Bolt",
+    "type": "Projectile"
+  },
+  {
+    "id": "DYNAMITE",
+    "name": "Dynamite",
+    "type": "Projectile"
+  },
+  {
+    "id": "CRUMBLING_EARTH",
+    "name": "Earthquake",
+    "type": "Projectile"
+  },
+  {
+    "id": "TENTACLE_PORTAL",
+    "name": "Eldritch Portal",
+    "type": "Projectile"
+  },
+  {
+    "id": "SLOW_BULLET",
+    "name": "Energy Orb",
+    "type": "Projectile"
+  },
+  {
+    "id": "SLOW_BULLET_TIMER",
+    "name": "Energy Orb With A Timer",
+    "type": "Projectile"
+  },
+  {
+    "id": "SLOW_BULLET_TRIGGER",
+    "name": "Energy Orb With A Trigger",
+    "type": "Projectile"
+  },
+  {
+    "id": "BOUNCY_ORB",
+    "name": "Energy Sphere",
+    "type": "Projectile"
+  },
+  {
+    "id": "BOUNCY_ORB_TIMER",
+    "name": "Energy Sphere With Timer",
+    "type": "Projectile"
+  },
+  {
+    "id": "EXPANDING_ORB",
+    "name": "Expanding Sphere",
+    "type": "Projectile"
+  },
+  {
+    "id": "FIREBALL",
+    "name": "Fireball",
+    "type": "Projectile"
+  },
+  {
+    "id": "GRENADE",
+    "name": "Firebolt",
+    "type": "Projectile"
+  },
+  {
+    "id": "GRENADE_TRIGGER",
+    "name": "Firebolt With Trigger",
+    "type": "Projectile"
+  },
+  {
+    "id": "FIREBOMB",
+    "name": "Firebomb",
+    "type": "Projectile"
+  },
+  {
+    "id": "FIREWORK",
+    "name": "Fireworks!",
+    "type": "Projectile"
+  },
+  {
+    "id": "FLAMETHROWER",
+    "name": "Flamethrower",
+    "type": "Projectile"
+  },
+  {
+    "id": "EXPLODING_DUCKS",
+    "name": "Flock Of Ducks",
+    "type": "Projectile"
+  },
+  {
+    "id": "FREEZING_GAZE",
+    "name": "Freezing Gaze",
+    "type": "Projectile"
+  },
+  {
+    "id": "GRENADE_TIER_3",
+    "name": "Giant Firebolt",
+    "type": "Projectile"
+  },
+  {
+    "id": "ROCKET_TIER_3",
+    "name": "Giant Magic Missile",
+    "type": "Projectile"
+  },
+  {
+    "id": "SPITTER_TIER_3",
+    "name": "Giant Spitter Bolt",
+    "type": "Projectile"
+  },
+  {
+    "id": "SPITTER_TIER_3_TIMER",
+    "name": "Giant Spitter Bolt With Timer",
+    "type": "Projectile"
+  },
+  {
+    "id": "DEATH_CROSS_BIG",
+    "name": "Giga Death Cross",
+    "type": "Projectile"
+  },
+  {
+    "id": "DISC_BULLET_BIG",
+    "name": "Giga Disc Projectile",
+    "type": "Projectile"
+  },
+  {
+    "id": "BOMB_HOLY_GIGA",
+    "name": "Giga Holy Bomb",
+    "type": "Projectile"
+  },
+  {
+    "id": "NUKE_GIGA",
+    "name": "Giga Nuke",
+    "type": "Projectile"
+  },
+  {
+    "id": "GLITTER_BOMB",
+    "name": "Glitter Bomb",
+    "type": "Projectile"
+  },
+  {
+    "id": "LANCE",
+    "name": "Glowing Lance",
+    "type": "Projectile"
+  },
+  {
+    "id": "GLUE_SHOT",
+    "name": "Glue Ball",
+    "type": "Projectile"
+  },
+  {
+    "id": "HEAL_BULLET",
+    "name": "Healing Bolt",
+    "type": "Projectile"
+  },
+  {
+    "id": "BOMB_HOLY",
+    "name": "Holy Bomb",
+    "type": "Projectile"
+  },
+  {
+    "id": "LANCE_HOLY",
+    "name": "Holy Lance",
+    "type": "Projectile"
+  },
+  {
+    "id": "TELEPORT_PROJECTILE_CLOSER",
+    "name": "Homebringer Teleport Bolt",
+    "type": "Projectile"
+  },
+  {
+    "id": "HOOK",
+    "name": "Hookbolt",
+    "type": "Projectile"
+  },
+  {
+    "id": "ICEBALL",
+    "name": "Iceball",
+    "type": "Projectile"
+  },
+  {
+    "id": "INFESTATION",
+    "name": "Infestation",
+    "type": "Projectile"
+  },
+  {
+    "id": "MEGALASER",
+    "name": "Intense Concentrated Light",
+    "type": "Projectile"
+  },
+  {
+    "id": "GRENADE_TIER_2",
+    "name": "Large Firebolt",
+    "type": "Projectile"
+  },
+  {
+    "id": "ROCKET_TIER_2",
+    "name": "Large Magic Missile",
+    "type": "Projectile"
+  },
+  {
+    "id": "SPITTER_TIER_2",
+    "name": "Large Spitter Bolt",
+    "type": "Projectile"
+  },
+  {
+    "id": "SPITTER_TIER_2_TIMER",
+    "name": "Large Spitter Bolt With Timer",
+    "type": "Projectile"
+  },
+  {
+    "id": "LIGHTNING",
+    "name": "Lightning Bolt",
+    "type": "Projectile"
+  },
+  {
+    "id": "LUMINOUS_DRILL",
+    "name": "Luminous Drill",
+    "type": "Projectile"
+  },
+  {
+    "id": "LASER_LUMINOUS_DRILL",
+    "name": "Luminous Drill With Timer",
+    "type": "Projectile"
+  },
+  {
+    "id": "BULLET",
+    "name": "Magic Arrow",
+    "type": "Projectile"
+  },
+  {
+    "id": "BULLET_TIMER",
+    "name": "Magic Arrow With Timer",
+    "type": "Projectile"
+  },
+  {
+    "id": "BULLET_TRIGGER",
+    "name": "Magic Arrow With Trigger",
+    "type": "Projectile"
+  },
+  {
+    "id": "HEAVY_BULLET",
+    "name": "Magic Bolt",
+    "type": "Projectile"
+  },
+  {
+    "id": "HEAVY_BULLET_TIMER",
+    "name": "Magic Bolt With Timer",
+    "type": "Projectile"
+  },
+  {
+    "id": "HEAVY_BULLET_TRIGGER",
+    "name": "Magic Bolt With Trigger",
+    "type": "Projectile"
+  },
+  {
+    "id": "MAGIC_SHIELD",
+    "name": "Magic Guard",
+    "type": "Projectile"
+  },
+  {
+    "id": "ROCKET",
+    "name": "Magic Missile",
+    "type": "Projectile"
+  },
+  {
+    "id": "METEOR",
+    "name": "Meteor",
+    "type": "Projectile"
+  },
+  {
+    "id": "MIST_ALCOHOL",
+    "name": "Mist Of Spirits",
+    "type": "Projectile"
+  },
+  {
+    "id": "NUKE",
+    "name": "Nuke",
+    "type": "Projectile"
+  },
+  {
+    "id": "GRENADE_ANTI",
+    "name": "Odd Firebolt",
+    "type": "Projectile"
+  },
+  {
+    "id": "DARKFLAME",
+    "name": "Path Of Dark Flame",
+    "type": "Projectile"
+  },
+  {
+    "id": "GLOWING_BOLT",
+    "name": "Pinpoint Of Light",
+    "type": "Projectile"
+  },
+  {
+    "id": "LASER_EMITTER",
+    "name": "Plasma Beam",
+    "type": "Projectile"
+  },
+  {
+    "id": "LASER_EMITTER_FOUR",
+    "name": "Plasma Beam Cross",
+    "type": "Projectile"
+  },
+  {
+    "id": "LASER_EMITTER_CUTTER",
+    "name": "Plasma Cutter",
+    "type": "Projectile"
+  },
+  {
+    "id": "POLLEN",
+    "name": "Pollen",
+    "type": "Projectile"
+  },
+  {
+    "id": "SPORE_POD",
+    "name": "Prickly Spore Pod",
+    "type": "Projectile"
+  },
+  {
+    "id": "PROPANE_TANK",
+    "name": "Propane Tank",
+    "type": "Projectile"
+  },
+  {
+    "id": "RANDOM_PROJECTILE",
+    "name": "Random Projectile Spell",
+    "type": "Projectile"
+  },
+  {
+    "id": "TELEPORT_PROJECTILE_STATIC",
+    "name": "Return",
+    "type": "Projectile"
+  },
+  {
+    "id": "SUMMON_ROCK",
+    "name": "Rock",
+    "type": "Projectile"
+  },
+  {
+    "id": "MIST_SLIME",
+    "name": "Slime Mist",
+    "type": "Projectile"
+  },
+  {
+    "id": "SLIMEBALL",
+    "name": "Slimeball",
+    "type": "Projectile"
+  },
+  {
+    "id": "TELEPORT_PROJECTILE_SHORT",
+    "name": "Small Teleport Bolt",
+    "type": "Projectile"
+  },
+  {
+    "id": "LIGHT_BULLET",
+    "name": "Spark Bolt",
+    "type": "Projectile"
+  },
+  {
+    "id": "LIGHT_BULLET_TRIGGER_2",
+    "name": "Spark Bolt With Double Trigger",
+    "type": "Projectile"
+  },
+  {
+    "id": "LIGHT_BULLET_TIMER",
+    "name": "Spark Bolt With Timer",
+    "type": "Projectile"
+  },
+  {
+    "id": "LIGHT_BULLET_TRIGGER",
+    "name": "Spark Bolt With Trigger",
+    "type": "Projectile"
+  },
+  {
+    "id": "SPIRAL_SHOT",
+    "name": "Spiral Shot",
+    "type": "Projectile"
+  },
+  {
+    "id": "SPITTER",
+    "name": "Spitter Bolt",
+    "type": "Projectile"
+  },
+  {
+    "id": "SPITTER_TIMER",
+    "name": "Spitter Bolt With Timer",
+    "type": "Projectile"
+  },
+  {
+    "id": "EXPLODING_DEER",
+    "name": "Summon Deercoy",
+    "type": "Projectile"
+  },
+  {
+    "id": "SUMMON_EGG",
+    "name": "Summon Egg",
+    "type": "Projectile"
+  },
+  {
+    "id": "TNTBOX",
+    "name": "Summon Explosive Box",
+    "type": "Projectile"
+  },
+  {
+    "id": "FISH",
+    "name": "Summon Fish",
+    "type": "Projectile"
+  },
+  {
+    "id": "SUMMON_HOLLOW_EGG",
+    "name": "Summon Hollow Egg",
+    "type": "Projectile"
+  },
+  {
+    "id": "TNTBOX_BIG",
+    "name": "Summon Large Explosive Box",
+    "type": "Projectile"
+  },
+  {
+    "id": "MISSILE",
+    "name": "Summon Missile",
+    "type": "Projectile"
+  },
+  {
+    "id": "DISC_BULLET_BIGGER",
+    "name": "Summon Omega Sawblade",
+    "type": "Projectile"
+  },
+  {
+    "id": "PEBBLE",
+    "name": "Summon Rock Spirit",
+    "type": "Projectile"
+  },
+  {
+    "id": "TENTACLE",
+    "name": "Summon Tentacle",
+    "type": "Projectile"
+  },
+  {
+    "id": "TENTACLE_TIMER",
+    "name": "Summon Tentacle With Timer",
+    "type": "Projectile"
+  },
+  {
+    "id": "SWAPPER_PROJECTILE",
+    "name": "Swapper",
+    "type": "Projectile"
+  },
+  {
+    "id": "TELEPORT_PROJECTILE",
+    "name": "Teleport Bolt",
+    "type": "Projectile"
+  },
+  {
+    "id": "THUNDERBALL",
+    "name": "Thunder Charge",
+    "type": "Projectile"
+  },
+  {
+    "id": "MIST_RADIOACTIVE",
+    "name": "Toxic Mist",
+    "type": "Projectile"
+  },
+  {
+    "id": "BUCKSHOT",
+    "name": "Triplicate Bolt",
+    "type": "Projectile"
+  },
+  {
+    "id": "MINE",
+    "name": "Unstable Crystal",
+    "type": "Projectile"
+  },
+  {
+    "id": "MINE_DEATH_TRIGGER",
+    "name": "Unstable Crystal With Trigger",
+    "type": "Projectile"
+  },
+  {
+    "id": "WHITE_HOLE",
+    "name": "White Hole",
+    "type": "Projectile"
+  },
+  {
+    "id": "WORM_SHOT",
+    "name": "Worm Launcher",
+    "type": "Projectile"
+  },
+  {
+    "id": "WALL_HORIZONTAL",
+    "name": "Horizontal Barrier",
+    "type": "Static projectile"
+  },
+  {
+    "id": "WALL_VERTICAL",
+    "name": "Vertical Barrier",
+    "type": "Static projectile"
+  },
+  {
+    "id": "WALL_SQUARE",
+    "name": "Square Barrier",
+    "type": "Static projectile"
+  },
+  {
+    "id": "CHAOS_POLYMORPH_FIELD",
+    "name": "Circle of Unstable Metamorphosis",
+    "type": "Static projectile"
+  },
+  {
+    "id": "FREEZE_FIELD",
+    "name": "Circle of Stillness",
+    "type": "Static projectile"
+  },
+  {
+    "id": "SHIELD_FIELD",
+    "name": "Circle of Shielding",
+    "type": "Static projectile"
+  },
+  {
+    "id": "LEVITATION_FIELD",
+    "name": "Circle of Buoyancy",
+    "type": "Static projectile"
+  },
+  {
+    "id": "ELECTROCUTION_FIELD",
+    "name": "Circle of Thunder",
+    "type": "Static projectile"
+  },
+  {
+    "id": "REGENERATION_FIELD",
+    "name": "Circle of Vigour",
+    "type": "Static projectile"
+  },
+  {
+    "id": "POLYMORPH_FIELD",
+    "name": "Circle of Transmogrification",
+    "type": "Static projectile"
+  },
+  {
+    "id": "BERSERK_FIELD",
+    "name": "Circle of Fervour",
+    "type": "Static projectile"
+  },
+  {
+    "id": "TELEPORTATION_FIELD",
+    "name": "Circle of Displacement",
+    "type": "Static projectile"
+  },
+  {
+    "id": "CLOUD_WATER",
+    "name": "Rain Cloud",
+    "type": "Static projectile"
+  },
+  {
+    "id": "CLOUD_OIL",
+    "name": "Oil Cloud",
+    "type": "Static projectile"
+  },
+  {
+    "id": "CLOUD_BLOOD",
+    "name": "Blood Cloud",
+    "type": "Static projectile"
+  },
+  {
+    "id": "CLOUD_ACID",
+    "name": "Acid Cloud",
+    "type": "Static projectile"
+  },
+  {
+    "id": "CLOUD_THUNDER",
+    "name": "Thundercloud",
+    "type": "Static projectile"
+  },
+  {
+    "id": "DESTRUCTION",
+    "name": "Destruction",
+    "type": "Static projectile"
+  },
+  {
+    "id": "BOMB_DETONATOR",
+    "name": "Explosive Detonator",
+    "type": "Static projectile"
+  },
+  {
+    "id": "PURPLE_EXPLOSION_FIELD",
+    "name": "Glittering Field",
+    "type": "Static projectile"
+  },
+  {
+    "id": "WORM_RAIN",
+    "name": "Matosade",
+    "type": "Static projectile"
+  },
+  {
+    "id": "METEOR_RAIN",
+    "name": "Meteorisade",
+    "type": "Static projectile"
+  },
+  {
+    "id": "SWARM_FLY",
+    "name": "Summon Fly Swarm",
+    "type": "Static projectile"
+  },
+  {
+    "id": "SWARM_FIREBUG",
+    "name": "Summon Firebug Swarm",
+    "type": "Static projectile"
+  },
+  {
+    "id": "SWARM_WASP",
+    "name": "Summon Wasp Swarm",
+    "type": "Static projectile"
+  },
+  {
+    "id": "DELAYED_SPELL",
+    "name": "Delayed Spellcast",
+    "type": "Static projectile"
+  },
+  {
+    "id": "MASS_POLYMORPH",
+    "name": "Muodonmuutos",
+    "type": "Static projectile"
+  },
+  {
+    "id": "PROJECTILE_TRANSMUTATION_FIELD",
+    "name": "Projectile Transmutation Field",
+    "type": "Static projectile"
+  },
+  {
+    "id": "PROJECTILE_THUNDER_FIELD",
+    "name": "Projectile Thunder Field",
+    "type": "Static projectile"
+  },
+  {
+    "id": "PROJECTILE_GRAVITY_FIELD",
+    "name": "Projectile Gravity Field",
+    "type": "Static projectile"
+  },
+  {
+    "id": "RANDOM_STATIC_PROJECTILE",
+    "name": "Random Static Projectile Spell",
+    "type": "Static projectile"
+  },
+  {
+    "id": "WHITE_HOLE_BIG",
+    "name": "Giga White Hole",
+    "type": "Static projectile"
+  },
+  {
+    "id": "BLACK_HOLE_BIG",
+    "name": "Giga Black Hole",
+    "type": "Static projectile"
+  },
+  {
+    "id": "BLACK_HOLE_GIGA",
+    "name": "Omega Black Hole",
+    "type": "Static projectile"
+  },
+  {
+    "id": "FIRE_BLAST",
+    "name": "Explosion of Brimstone",
+    "type": "Static projectile"
+  },
+  {
+    "id": "EXPLOSION_LIGHT",
+    "name": "Magical Explosion",
+    "type": "Static projectile"
+  },
+  {
+    "id": "THUNDER_BLAST",
+    "name": "Explosion of Thunder",
+    "type": "Static projectile"
+  },
+  {
+    "id": "ALCOHOL_BLAST",
+    "name": "Explosion of Spirits",
+    "type": "Static projectile"
+  },
+  {
+    "id": "POISON_BLAST",
+    "name": "Explosion of Poison",
+    "type": "Static projectile"
+  },
+  {
+    "id": "EXPLOSION",
+    "name": "Explosion",
+    "type": "Static projectile"
+  },
+  {
+    "id": "WHITE_HOLE_GIGA",
+    "name": "Omega White Hole",
+    "type": "Static projectile"
+  },
+  {
+    "id": "FRIEND_FLY",
+    "name": "Summon Friendly Fly",
+    "type": "Static projectile"
+  },
+  {
+    "id": "VACUUM_ENTITIES",
+    "name": "Vacuum Field",
+    "type": "Static projectile"
+  },
+  {
+    "id": "VACUUM_LIQUID",
+    "name": "Liquid Vacuum Field",
+    "type": "Static projectile"
+  },
+  {
+    "id": "VACUUM_POWDER",
+    "name": "Powder Vacuum Field",
+    "type": "Static projectile"
+  },
+  {
+    "id": "CLUSTERMOD",
+    "name": "Clusterbolt",
+    "type": "Modifier"
+  },
+  {
+    "id": "MANA_REDUCE",
+    "name": "Add Mana",
+    "type": "Modifier"
+  },
+  {
+    "id": "ARC_POISON",
+    "name": "Poison Arc",
+    "type": "Modifier"
+  },
+  {
+    "id": "ARC_FIRE",
+    "name": "Fire Arc",
+    "type": "Modifier"
+  },
+  {
+    "id": "ARC_GUNPOWDER",
+    "name": "Gunpowder Arc",
+    "type": "Modifier"
+  },
+  {
+    "id": "ARC_ELECTRIC",
+    "name": "Electric Arc",
+    "type": "Modifier"
+  },
+  {
+    "id": "ROCKET_DOWNWARDS",
+    "name": "Downwards Bolt Bundle",
+    "type": "Modifier"
+  },
+  {
+    "id": "ROCKET_OCTAGON",
+    "name": "Octagonal Bolt Bundle",
+    "type": "Modifier"
+  },
+  {
+    "id": "BOUNCE_LASER",
+    "name": "Concentrated Light Bounce",
+    "type": "Modifier"
+  },
+  {
+    "id": "BOUNCE",
+    "name": "Bounce",
+    "type": "Modifier"
+  },
+  {
+    "id": "BOUNCE_SPARK",
+    "name": "Bubbly Bounce",
+    "type": "Modifier"
+  },
+  {
+    "id": "REMOVE_BOUNCE",
+    "name": "Remove Bounce",
+    "type": "Modifier"
+  },
+  {
+    "id": "BOUNCE_SMALL_EXPLOSION",
+    "name": "Sparkly Bounce",
+    "type": "Modifier"
+  },
+  {
+    "id": "BOUNCE_HOLE",
+    "name": "Vacuum Bounce",
+    "type": "Modifier"
+  },
+  {
+    "id": "BOUNCE_EXPLOSION",
+    "name": "Explosive Bounce",
+    "type": "Modifier"
+  },
+  {
+    "id": "BOUNCE_LARPA",
+    "name": "Larpa Bounce",
+    "type": "Modifier"
+  },
+  {
+    "id": "BOUNCE_LIGHTNING",
+    "name": "Lightning Bounce",
+    "type": "Modifier"
+  },
+  {
+    "id": "BOUNCE_LASER_EMITTER",
+    "name": "Plasma Beam Bounce",
+    "type": "Modifier"
+  },
+  {
+    "id": "EXPLOSION_TINY",
+    "name": "Concentrated Explosion",
+    "type": "Modifier"
+  },
+  {
+    "id": "HITFX_CRITICAL_BLOOD",
+    "name": "Critical On Bloody Enemies",
+    "type": "Modifier"
+  },
+  {
+    "id": "HITFX_CRITICAL_OIL",
+    "name": "Critical On Oiled Enemies",
+    "type": "Modifier"
+  },
+  {
+    "id": "HITFX_CRITICAL_WATER",
+    "name": "Critical On Wet (Water) Enemies",
+    "type": "Modifier"
+  },
+  {
+    "id": "HITFX_BURNING_CRITICAL_HIT",
+    "name": "Critical On Burning",
+    "type": "Modifier"
+  },
+  {
+    "id": "CRITICAL_HIT",
+    "name": "Critical Plus",
+    "type": "Modifier"
+  },
+  {
+    "id": "AREA_DAMAGE",
+    "name": "Damage Field",
+    "type": "Modifier"
+  },
+  {
+    "id": "BLOODLUST",
+    "name": "Bloodlust",
+    "type": "Modifier"
+  },
+  {
+    "id": "DAMAGE",
+    "name": "Damage Plus",
+    "type": "Modifier"
+  },
+  {
+    "id": "DAMAGE_RANDOM",
+    "name": "Random Damage",
+    "type": "Modifier"
+  },
+  {
+    "id": "DAMAGE_FOREVER",
+    "name": "Mana To Damage",
+    "type": "Modifier"
+  },
+  {
+    "id": "ZERO_DAMAGE",
+    "name": "Null Shot",
+    "type": "Modifier"
+  },
+  {
+    "id": "HEAVY_SHOT",
+    "name": "Heavy Shot",
+    "type": "Modifier"
+  },
+  {
+    "id": "LIGHT_SHOT",
+    "name": "Light Shot",
+    "type": "Modifier"
+  },
+  {
+    "id": "CRUMBLING_EARTH_PROJECTILE",
+    "name": "Earthquake Shot",
+    "type": "Modifier"
+  },
+  {
+    "id": "FREEZE",
+    "name": "Freeze Charge",
+    "type": "Modifier"
+  },
+  {
+    "id": "ELECTRIC_CHARGE",
+    "name": "Electric Charge",
+    "type": "Modifier"
+  },
+  {
+    "id": "HITFX_EXPLOSION_ALCOHOL",
+    "name": "Explosion On Drunk Enemies",
+    "type": "Modifier"
+  },
+  {
+    "id": "HITFX_EXPLOSION_ALCOHOL_GIGA",
+    "name": "Giant Explosion On Drunk Enemies",
+    "type": "Modifier"
+  },
+  {
+    "id": "HITFX_EXPLOSION_SLIME",
+    "name": "Explosion On Slimy Enemies",
+    "type": "Modifier"
+  },
+  {
+    "id": "HITFX_EXPLOSION_SLIME_GIGA",
+    "name": "Giant Explosion On Slimy Enemies",
+    "type": "Modifier"
+  },
+  {
+    "id": "HITFX_TOXIC_CHARM",
+    "name": "Charm On Toxic Sludge",
+    "type": "Modifier"
+  },
+  {
+    "id": "COLOUR_RED",
+    "name": "Red Glimmer",
+    "type": "Modifier"
+  },
+  {
+    "id": "COLOUR_ORANGE",
+    "name": "Orange Glimmer",
+    "type": "Modifier"
+  },
+  {
+    "id": "COLOUR_YELLOW",
+    "name": "Yellow Glimmer",
+    "type": "Modifier"
+  },
+  {
+    "id": "COLOUR_GREEN",
+    "name": "Green Glimmer",
+    "type": "Modifier"
+  },
+  {
+    "id": "COLOUR_BLUE",
+    "name": "Blue Glimmer",
+    "type": "Modifier"
+  },
+  {
+    "id": "COLOUR_PURPLE",
+    "name": "Purple Glimmer",
+    "type": "Modifier"
+  },
+  {
+    "id": "COLOUR_RAINBOW",
+    "name": "Rainbow Glimmer",
+    "type": "Modifier"
+  },
+  {
+    "id": "COLOUR_INVIS",
+    "name": "Invisible Spell",
+    "type": "Modifier"
+  },
+  {
+    "id": "HEAVY_SPREAD",
+    "name": "Heavy Spread",
+    "type": "Modifier"
+  },
+  {
+    "id": "KNOCKBACK",
+    "name": "Knockback",
+    "type": "Modifier"
+  },
+  {
+    "id": "LARPA_CHAOS_2",
+    "name": "Copy Trail",
+    "type": "Modifier"
+  },
+  {
+    "id": "LARPA_CHAOS",
+    "name": "Chaos Larpa",
+    "type": "Modifier"
+  },
+  {
+    "id": "LARPA_DOWNWARDS",
+    "name": "Downwards Larpa",
+    "type": "Modifier"
+  },
+  {
+    "id": "LARPA_UPWARDS",
+    "name": "Upwards Larpa",
+    "type": "Modifier"
+  },
+  {
+    "id": "LARPA_DEATH",
+    "name": "Larpa Explosion",
+    "type": "Modifier"
+  },
+  {
+    "id": "LIFETIME_DOWN",
+    "name": "Reduce Lifetime",
+    "type": "Modifier"
+  },
+  {
+    "id": "LIFETIME",
+    "name": "Increase Lifetime",
+    "type": "Modifier"
+  },
+  {
+    "id": "CHAIN_SHOT",
+    "name": "Chain Spell",
+    "type": "Modifier"
+  },
+  {
+    "id": "NOLLA",
+    "name": "Nolla",
+    "type": "Modifier"
+  },
+  {
+    "id": "LIGHT",
+    "name": "Light",
+    "type": "Modifier"
+  },
+  {
+    "id": "NECROMANCY",
+    "name": "Necromancy",
+    "type": "Modifier"
+  },
+  {
+    "id": "ORBIT_DISCS",
+    "name": "Sawblade Orbit",
+    "type": "Modifier"
+  },
+  {
+    "id": "ORBIT_NUKES",
+    "name": "Nuke Orbit",
+    "type": "Modifier"
+  },
+  {
+    "id": "ORBIT_FIREBALLS",
+    "name": "Fireball Orbit",
+    "type": "Modifier"
+  },
+  {
+    "id": "ORBIT_LARPA",
+    "name": "Orbit Larpa",
+    "type": "Modifier"
+  },
+  {
+    "id": "ORBIT_LASERS",
+    "name": "Plasma Beam Orbit",
+    "type": "Modifier"
+  },
+  {
+    "id": "LINE_ARC",
+    "name": "Linear Arc",
+    "type": "Modifier"
+  },
+  {
+    "id": "HORIZONTAL_ARC",
+    "name": "Horizontal Path",
+    "type": "Modifier"
+  },
+  {
+    "id": "GRAVITY",
+    "name": "Gravity",
+    "type": "Modifier"
+  },
+  {
+    "id": "GRAVITY_ANTI",
+    "name": "Anti-Gravity",
+    "type": "Modifier"
+  },
+  {
+    "id": "FLY_DOWNWARDS",
+    "name": "Fly Downwards",
+    "type": "Modifier"
+  },
+  {
+    "id": "FLY_UPWARDS",
+    "name": "Fly Upwards",
+    "type": "Modifier"
+  },
+  {
+    "id": "ORBIT_SHOT",
+    "name": "Orbiting Arc",
+    "type": "Modifier"
+  },
+  {
+    "id": "TRUE_ORBIT",
+    "name": "True Orbit",
+    "type": "Modifier"
+  },
+  {
+    "id": "PHASING_ARC",
+    "name": "Phasing Arc",
+    "type": "Modifier"
+  },
+  {
+    "id": "SPIRALING_SHOT",
+    "name": "Spiral Arc",
+    "type": "Modifier"
+  },
+  {
+    "id": "PINGPONG_PATH",
+    "name": "Ping-Pong Path",
+    "type": "Modifier"
+  },
+  {
+    "id": "CHAOTIC_ARC",
+    "name": "Chaotic Path",
+    "type": "Modifier"
+  },
+  {
+    "id": "SINEWAVE",
+    "name": "Slithering Path",
+    "type": "Modifier"
+  },
+  {
+    "id": "HOMING_WAND",
+    "name": "Wand Homing",
+    "type": "Modifier"
+  },
+  {
+    "id": "HOMING_CURSOR",
+    "name": "Aiming Arc",
+    "type": "Modifier"
+  },
+  {
+    "id": "HOMING_SHORT",
+    "name": "Short-range Homing",
+    "type": "Modifier"
+  },
+  {
+    "id": "AUTOAIM",
+    "name": "Auto-Aim",
+    "type": "Modifier"
+  },
+  {
+    "id": "HOMING",
+    "name": "Homing",
+    "type": "Modifier"
+  },
+  {
+    "id": "HOMING_ROTATE",
+    "name": "Rotate Towards Foes",
+    "type": "Modifier"
+  },
+  {
+    "id": "HOMING_SHOOTER",
+    "name": "Boomerang",
+    "type": "Modifier"
+  },
+  {
+    "id": "ANTI_HOMING",
+    "name": "Anti Homing",
+    "type": "Modifier"
+  },
+  {
+    "id": "HOMING_ACCELERATING",
+    "name": "Accelerative Homing",
+    "type": "Modifier"
+  },
+  {
+    "id": "HOMING_AREA",
+    "name": "Projectile Area Teleport",
+    "type": "Modifier"
+  },
+  {
+    "id": "FIREBALL_RAY_ENEMY",
+    "name": "Personal Fireball Thrower",
+    "type": "Modifier"
+  },
+  {
+    "id": "GRAVITY_FIELD_ENEMY",
+    "name": "Personal Gravity Field",
+    "type": "Modifier"
+  },
+  {
+    "id": "TENTACLE_RAY_ENEMY",
+    "name": "Personal Tentacler",
+    "type": "Modifier"
+  },
+  {
+    "id": "LIGHTNING_RAY_ENEMY",
+    "name": "Personal Lightning Caster",
+    "type": "Modifier"
+  },
+  {
+    "id": "HITFX_PETRIFY",
+    "name": "Petrify",
+    "type": "Modifier"
+  },
+  {
+    "id": "PIERCING_SHOT",
+    "name": "Piercing Shot",
+    "type": "Modifier"
+  },
+  {
+    "id": "LASER_EMITTER_WIDER",
+    "name": "Plasma Beam Enhancer",
+    "type": "Modifier"
+  },
+  {
+    "id": "QUANTUM_SPLIT",
+    "name": "Quantum Split",
+    "type": "Modifier"
+  },
+  {
+    "id": "RANDOM_EXPLOSION",
+    "name": "Chaos Magic",
+    "type": "Modifier"
+  },
+  {
+    "id": "RANDOM_MODIFIER",
+    "name": "Random Modifier Spell",
+    "type": "Modifier"
+  },
+  {
+    "id": "RECOIL",
+    "name": "Recoil",
+    "type": "Modifier"
+  },
+  {
+    "id": "RECOIL_DAMPER",
+    "name": "Recoil Damper",
+    "type": "Modifier"
+  },
+  {
+    "id": "RECHARGE",
+    "name": "Reduce Recharge Time",
+    "type": "Modifier"
+  },
+  {
+    "id": "SPREAD_REDUCE",
+    "name": "Reduce Spread",
+    "type": "Modifier"
+  },
+  {
+    "id": "EXPLOSION_REMOVE",
+    "name": "Remove Explosion",
+    "type": "Modifier"
+  },
+  {
+    "id": "SLOW_BUT_STEADY",
+    "name": "Slow But Steady",
+    "type": "Modifier"
+  },
+  {
+    "id": "ENERGY_SHIELD_SHOT",
+    "name": "Projectile Energy Shield",
+    "type": "Modifier"
+  },
+  {
+    "id": "SPEED",
+    "name": "Speed Up",
+    "type": "Modifier"
+  },
+  {
+    "id": "DECELERATING_SHOT",
+    "name": "Decelerating Shot",
+    "type": "Modifier"
+  },
+  {
+    "id": "ACCELERATING_SHOT",
+    "name": "Accelerating Shot",
+    "type": "Modifier"
+  },
+  {
+    "id": "FIZZLE",
+    "name": "Fizzle",
+    "type": "Modifier"
+  },
+  {
+    "id": "FLOATING_ARC",
+    "name": "Floating Arc",
+    "type": "Modifier"
+  },
+  {
+    "id": "AVOIDING_ARC",
+    "name": "Avoiding Arc",
+    "type": "Modifier"
+  },
+  {
+    "id": "CLIPPING_SHOT",
+    "name": "Drilling Shot",
+    "type": "Modifier"
+  },
+  {
+    "id": "MATTER_EATER",
+    "name": "Matter Eater",
+    "type": "Modifier"
+  },
+  {
+    "id": "UNSTABLE_GUNPOWDER",
+    "name": "Firecrackers",
+    "type": "Modifier"
+  },
+  {
+    "id": "EXPLOSIVE_PROJECTILE",
+    "name": "Explosive Projectile",
+    "type": "Modifier"
+  },
+  {
+    "id": "FIREBALL_RAY_LINE",
+    "name": "Two-Way Fireball Thrower",
+    "type": "Modifier"
+  },
+  {
+    "id": "FIREBALL_RAY",
+    "name": "Fireball Thrower",
+    "type": "Modifier"
+  },
+  {
+    "id": "LIGHTNING_RAY",
+    "name": "Lightning Thrower",
+    "type": "Modifier"
+  },
+  {
+    "id": "TENTACLE_RAY",
+    "name": "Tentacler",
+    "type": "Modifier"
+  },
+  {
+    "id": "LASER_EMITTER_RAY",
+    "name": "Plasma Beam Thrower",
+    "type": "Modifier"
+  },
+  {
+    "id": "SPELLS_TO_POWER",
+    "name": "Spells To Power",
+    "type": "Modifier"
+  },
+  {
+    "id": "ESSENCE_TO_POWER",
+    "name": "Essence to Power",
+    "type": "Modifier"
+  },
+  {
+    "id": "OIL_TRAIL",
+    "name": "Oil Trail",
+    "type": "Modifier"
+  },
+  {
+    "id": "ACID_TRAIL",
+    "name": "Acid Trail",
+    "type": "Modifier"
+  },
+  {
+    "id": "GUNPOWDER_TRAIL",
+    "name": "Gunpowder Trail",
+    "type": "Modifier"
+  },
+  {
+    "id": "RAINBOW_TRAIL",
+    "name": "Rainbow Trail",
+    "type": "Modifier"
+  },
+  {
+    "id": "WATER_TRAIL",
+    "name": "Water Trail",
+    "type": "Modifier"
+  },
+  {
+    "id": "BURN_TRAIL",
+    "name": "Burning Trail",
+    "type": "Modifier"
+  },
+  {
+    "id": "FIRE_TRAIL",
+    "name": "Fire Trail",
+    "type": "Modifier"
+  },
+  {
+    "id": "POISON_TRAIL",
+    "name": "Poison Trail",
+    "type": "Modifier"
+  },
+  {
+    "id": "WATER_TO_POISON",
+    "name": "Water To Poison",
+    "type": "Modifier"
+  },
+  {
+    "id": "BLOOD_TO_ACID",
+    "name": "Blood To Acid",
+    "type": "Modifier"
+  },
+  {
+    "id": "LAVA_TO_BLOOD",
+    "name": "Lava To Blood",
+    "type": "Modifier"
+  },
+  {
+    "id": "LIQUID_TO_EXPLOSION",
+    "name": "Liquid Detonation",
+    "type": "Modifier"
+  },
+  {
+    "id": "TOXIC_TO_ACID",
+    "name": "Toxic Sludge To Acid",
+    "type": "Modifier"
+  },
+  {
+    "id": "TRANSMUTATION",
+    "name": "Chaotic Transmutation",
+    "type": "Modifier"
+  },
+  {
+    "id": "STATIC_TO_SAND",
+    "name": "Ground To Sand",
+    "type": "Modifier"
+  },
+  {
+    "id": "CURSE_WITHER_ELECTRICITY",
+    "name": "Weakening Curse - Electricity",
+    "type": "Modifier"
+  },
+  {
+    "id": "CURSE_WITHER_EXPLOSION",
+    "name": "Weakening Curse - Explosives",
+    "type": "Modifier"
+  },
+  {
+    "id": "CURSE_WITHER_MELEE",
+    "name": "Weakening Curse - Melee",
+    "type": "Modifier"
+  },
+  {
+    "id": "CURSE_WITHER_PROJECTILE",
+    "name": "Weakening Curse - Projectiles",
+    "type": "Modifier"
+  },
+  {
+    "id": "CURSE",
+    "name": "Venomous Curse",
+    "type": "Modifier"
+  },
+  {
+    "id": "BURST_2",
+    "name": "Double Spell",
+    "type": "Multicast"
+  },
+  {
+    "id": "BURST_3",
+    "name": "Triple Spell",
+    "type": "Multicast"
+  },
+  {
+    "id": "BURST_4",
+    "name": "Quadruple Spell",
+    "type": "Multicast"
+  },
+  {
+    "id": "BURST_8",
+    "name": "Octuple Spell",
+    "type": "Multicast"
+  },
+  {
+    "id": "BURST_X",
+    "name": "Myriad Spell",
+    "type": "Multicast"
+  },
+  {
+    "id": "SCATTER_2",
+    "name": "Double Scatter Spell",
+    "type": "Multicast"
+  },
+  {
+    "id": "SCATTER_3",
+    "name": "Triple Scatter Spell",
+    "type": "Multicast"
+  },
+  {
+    "id": "SCATTER_4",
+    "name": "Quadruple Scatter Spell",
+    "type": "Multicast"
+  },
+  {
+    "id": "I_SHAPE",
+    "name": "Formation - Behind Your Back",
+    "type": "Multicast"
+  },
+  {
+    "id": "T_SHAPE",
+    "name": "Formation - Above And Below",
+    "type": "Multicast"
+  },
+  {
+    "id": "PENTAGRAM_SHAPE",
+    "name": "Formation - Pentagon",
+    "type": "Multicast"
+  },
+  {
+    "id": "CIRCLE_SHAPE",
+    "name": "Formation - Hexagon",
+    "type": "Multicast"
+  },
+  {
+    "id": "Y_SHAPE",
+    "name": "Formation - Bifurcated",
+    "type": "Multicast"
+  },
+  {
+    "id": "W_SHAPE",
+    "name": "Formation - Trifurcated",
+    "type": "Multicast"
+  },
+  {
+    "id": "TOUCH_GRASS",
+    "name": "Touch of Grass",
+    "type": "Material"
+  },
+  {
+    "id": "TOUCH_PISS",
+    "name": "Touch of Gold?",
+    "type": "Material"
+  },
+  {
+    "id": "SOILBALL",
+    "name": "Chunk Of Soil",
+    "type": "Material"
+  },
+  {
+    "id": "CIRCLE_FIRE",
+    "name": "Circle of Fire",
+    "type": "Material"
+  },
+  {
+    "id": "CIRCLE_ACID",
+    "name": "Circle of Acid",
+    "type": "Material"
+  },
+  {
+    "id": "CIRCLE_OIL",
+    "name": "Circle of Oil",
+    "type": "Material"
+  },
+  {
+    "id": "CIRCLE_WATER",
+    "name": "Circle of water",
+    "type": "Material"
+  },
+  {
+    "id": "MATERIAL_OIL",
+    "name": "Oil",
+    "type": "Material"
+  },
+  {
+    "id": "MATERIAL_CEMENT",
+    "name": "Cement",
+    "type": "Material"
+  },
+  {
+    "id": "MATERIAL_BLOOD",
+    "name": "Blood",
+    "type": "Material"
+  },
+  {
+    "id": "MATERIAL_ACID",
+    "name": "Acid",
+    "type": "Material"
+  },
+  {
+    "id": "MATERIAL_WATER",
+    "name": "Water",
+    "type": "Material"
+  },
+  {
+    "id": "SEA_LAVA",
+    "name": "Sea Of Lava",
+    "type": "Material"
+  },
+  {
+    "id": "SEA_ALCOHOL",
+    "name": "Sea Of Alcohol",
+    "type": "Material"
+  },
+  {
+    "id": "SEA_OIL",
+    "name": "Sea Of Oil",
+    "type": "Material"
+  },
+  {
+    "id": "SEA_WATER",
+    "name": "Sea Of Water",
+    "type": "Material"
+  },
+  {
+    "id": "SEA_ACID",
+    "name": "Sea Of Acid",
+    "type": "Material"
+  },
+  {
+    "id": "SEA_ACID_GAS",
+    "name": "Sea Of Flammable Gas",
+    "type": "Material"
+  },
+  {
+    "id": "SEA_SWAMP",
+    "name": "Summon Swamp",
+    "type": "Material"
+  },
+  {
+    "id": "SEA_MIMIC",
+    "name": "Sea of Mimicium",
+    "type": "Material"
+  },
+  {
+    "id": "TOUCH_BLOOD",
+    "name": "Touch Of Blood",
+    "type": "Material"
+  },
+  {
+    "id": "TOUCH_GOLD",
+    "name": "Touch Of Gold",
+    "type": "Material"
+  },
+  {
+    "id": "TOUCH_OIL",
+    "name": "Touch Of Oil",
+    "type": "Material"
+  },
+  {
+    "id": "TOUCH_SMOKE",
+    "name": "Touch Of Smoke",
+    "type": "Material"
+  },
+  {
+    "id": "TOUCH_ALCOHOL",
+    "name": "Touch Of Spirits",
+    "type": "Material"
+  },
+  {
+    "id": "TOUCH_WATER",
+    "name": "Touch Of Water",
+    "type": "Material"
+  },
+  {
+    "id": "X_RAY",
+    "name": "All-Seeing Eye",
+    "type": "Utility"
+  },
+  {
+    "id": "BLOOD_MAGIC",
+    "name": "Blood Magic",
+    "type": "Utility"
+  },
+  {
+    "id": "CASTER_CAST",
+    "name": "Inner Spell",
+    "type": "Utility"
+  },
+  {
+    "id": "I_SHOT",
+    "name": "Iplicate Spell",
+    "type": "Utility"
+  },
+  {
+    "id": "Y_SHOT",
+    "name": "Yplicate Spell",
+    "type": "Utility"
+  },
+  {
+    "id": "T_SHOT",
+    "name": "Tiplicate Spell",
+    "type": "Utility"
+  },
+  {
+    "id": "W_SHOT",
+    "name": "Wuplicate Spell",
+    "type": "Utility"
+  },
+  {
+    "id": "QUAD_SHOT",
+    "name": "Quplicate Spell",
+    "type": "Utility"
+  },
+  {
+    "id": "PENTA_SHOT",
+    "name": "Peplicate Spell",
+    "type": "Utility"
+  },
+  {
+    "id": "HEXA_SHOT",
+    "name": "Heplicate Spell",
+    "type": "Utility"
+  },
+  {
+    "id": "TELEPORT_CAST",
+    "name": "Teleporting Cast",
+    "type": "Utility"
+  },
+  {
+    "id": "LONG_DISTANCE_CAST",
+    "name": "Long-Distance Cast",
+    "type": "Utility"
+  },
+  {
+    "id": "SUPER_TELEPORT_CAST",
+    "name": "Warp Cast",
+    "type": "Utility"
+  },
+  {
+    "id": "ALL_BLACKHOLES",
+    "name": "Spells To Black Holes",
+    "type": "Utility"
+  },
+  {
+    "id": "ALL_DEATHCROSSES",
+    "name": "Spells To Death Crosses",
+    "type": "Utility"
+  },
+  {
+    "id": "ALL_ROCKETS",
+    "name": "Spells To Magic Missiles",
+    "type": "Utility"
+  },
+  {
+    "id": "ALL_NUKES",
+    "name": "Spells To Nukes",
+    "type": "Utility"
+  },
+  {
+    "id": "ALL_DISCS",
+    "name": "Spells To Giga Sawblades",
+    "type": "Utility"
+  },
+  {
+    "id": "SUMMON_WANDGHOST",
+    "name": "Summon Taikasauva",
+    "type": "Utility"
+  },
+  {
+    "id": "TEMPORARY_PLATFORM",
+    "name": "Summon Platform",
+    "type": "Utility"
+  },
+  {
+    "id": "TEMPORARY_WALL",
+    "name": "Summon Wall",
+    "type": "Utility"
+  },
+  {
+    "id": "MONEY_MAGIC",
+    "name": "Gold To Power",
+    "type": "Utility"
+  },
+  {
+    "id": "BLOOD_TO_POWER",
+    "name": "Blood To Power",
+    "type": "Utility"
+  },
+  {
+    "id": "RESET",
+    "name": "Wand Refresh",
+    "type": "Utility"
+  },
+  {
+    "id": "ENERGY_SHIELD",
+    "name": "Energy Shield",
+    "type": "Passive"
+  },
+  {
+    "id": "ENERGY_SHIELD_SECTOR",
+    "name": "Energy Shield Sector",
+    "type": "Passive"
+  },
+  {
+    "id": "TINY_GHOST",
+    "name": "Summon Tiny Ghost",
+    "type": "Passive"
+  },
+  {
+    "id": "TORCH",
+    "name": "Torch",
+    "type": "Passive"
+  },
+  {
+    "id": "TORCH_ELECTRIC",
+    "name": "Electric Torch",
+    "type": "Passive"
+  },
+  {
+    "id": "CESSATION",
+    "name": "Cessation",
+    "type": "Other"
+  },
+  {
+    "id": "ADD_TRIGGER",
+    "name": "Add Trigger",
+    "type": "Other"
+  },
+  {
+    "id": "ADD_TIMER",
+    "name": "Add Timer",
+    "type": "Other"
+  },
+  {
+    "id": "ADD_DEATH_TRIGGER",
+    "name": "Add Expiration Trigger",
+    "type": "Other"
+  },
+  {
+    "id": "DIVIDE_2",
+    "name": "Divide By 2",
+    "type": "Other"
+  },
+  {
+    "id": "DIVIDE_3",
+    "name": "Divide By 3",
+    "type": "Other"
+  },
+  {
+    "id": "DIVIDE_4",
+    "name": "Divide By 4",
+    "type": "Other"
+  },
+  {
+    "id": "DIVIDE_10",
+    "name": "Divide By 10",
+    "type": "Other"
+  },
+  {
+    "id": "SIGMA",
+    "name": "Sigma",
+    "type": "Other"
+  },
+  {
+    "id": "PHI",
+    "name": "Phi",
+    "type": "Other"
+  },
+  {
+    "id": "TAU",
+    "name": "Tau",
+    "type": "Other"
+  },
+  {
+    "id": "OMEGA",
+    "name": "Omega",
+    "type": "Other"
+  },
+  {
+    "id": "ZETA",
+    "name": "Zeta",
+    "type": "Other"
+  },
+  {
+    "id": "MU",
+    "name": "Mu",
+    "type": "Other"
+  },
+  {
+    "id": "GAMMA",
+    "name": "Gamma",
+    "type": "Other"
+  },
+  {
+    "id": "ALPHA",
+    "name": "Alpha",
+    "type": "Other"
+  },
+  {
+    "id": "KANTELE_A",
+    "name": "Kantele - Note A",
+    "type": "Other"
+  },
+  {
+    "id": "KANTELE_D",
+    "name": "Kantele - Note D",
+    "type": "Other"
+  },
+  {
+    "id": "KANTELE_DIS",
+    "name": "Kantele - Note D+",
+    "type": "Other"
+  },
+  {
+    "id": "KANTELE_E",
+    "name": "Kantele - Note E",
+    "type": "Other"
+  },
+  {
+    "id": "KANTELE_G",
+    "name": "Kantele - Note G",
+    "type": "Other"
+  },
+  {
+    "id": "OCARINA_A",
+    "name": "Ocarina - Note A",
+    "type": "Other"
+  },
+  {
+    "id": "OCARINA_B",
+    "name": "Ocarina - Note B",
+    "type": "Other"
+  },
+  {
+    "id": "OCARINA_C",
+    "name": "Ocarina - Note C",
+    "type": "Other"
+  },
+  {
+    "id": "OCARINA_D",
+    "name": "Ocarina - Note D",
+    "type": "Other"
+  },
+  {
+    "id": "OCARINA_E",
+    "name": "Ocarina - Note E",
+    "type": "Other"
+  },
+  {
+    "id": "OCARINA_F",
+    "name": "Ocarina - Note F",
+    "type": "Other"
+  },
+  {
+    "id": "OCARINA_GSHARP",
+    "name": "Ocarina - Note G+",
+    "type": "Other"
+  },
+  {
+    "id": "OCARINA_A2",
+    "name": "Ocarina - Note A2",
+    "type": "Other"
+  },
+  {
+    "id": "RANDOM_SPELL",
+    "name": "Random Spell",
+    "type": "Other"
+  },
+  {
+    "id": "DRAW_RANDOM",
+    "name": "Copy Random Spell",
+    "type": "Other"
+  },
+  {
+    "id": "DRAW_RANDOM_X3",
+    "name": "Copy Random Spell Thrice",
+    "type": "Other"
+  },
+  {
+    "id": "DRAW_3_RANDOM",
+    "name": "Copy Three Random Spells",
+    "type": "Other"
+  },
+  {
+    "id": "IF_PROJECTILE",
+    "name": "Requirement - Projectile Spells",
+    "type": "Other"
+  },
+  {
+    "id": "IF_HP",
+    "name": "Requirement - Low Health",
+    "type": "Other"
+  },
+  {
+    "id": "IF_ENEMY",
+    "name": "Requirement - Enemies",
+    "type": "Other"
+  },
+  {
+    "id": "IF_HALF",
+    "name": "Requirement - Every Other",
+    "type": "Other"
+  },
+  {
+    "id": "IF_ELSE",
+    "name": "Requirement - Otherwise",
+    "type": "Other"
+  },
+  {
+    "id": "IF_END",
+    "name": "Requirement - Endpoint",
+    "type": "Other"
+  },
+  {
+    "id": "DUPLICATE",
+    "name": "Spell Duplication",
+    "type": "Other"
+  },
+  {
+    "id": "SUMMON_PORTAL",
+    "name": "Summon Portal",
+    "type": "Other"
+  },
+  {
+    "id": "ALL_SPELLS",
+    "name": "The End Of Everything",
+    "type": "Other"
+  }
+]

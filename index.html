@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Noita Savegame Wand Editor (Web)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="top-bar">
+    <h1>Noita Savegame Wand Editor (Web)</h1>
+    <div class="file-controls">
+      <label class="file-input-label">
+        <span>Load player.xml</span>
+        <input type="file" id="file-input" accept=".xml" />
+      </label>
+      <button id="download-btn" disabled>Download edited XML</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="wand-editor">
+      <div class="wand-tabs">
+        <button class="wand-tab active" data-wand-index="0">Wand 1</button>
+        <button class="wand-tab" data-wand-index="1">Wand 2</button>
+        <button class="wand-tab" data-wand-index="2">Wand 3</button>
+        <button class="wand-tab" data-wand-index="3">Wand 4</button>
+      </div>
+
+      <div id="wand-panels">
+        <!-- Wand panels are populated dynamically by app.js -->
+      </div>
+    </section>
+
+    <section class="spell-library">
+      <header class="spell-library-header">
+        <h2>Spell Library</h2>
+        <div class="spell-library-filters">
+          <label>
+            Type:
+            <select id="spell-type-filter">
+              <option value="all">All</option>
+            </select>
+          </label>
+          <input type="text" id="spell-search" placeholder="Search spell by name or ID" />
+        </div>
+      </header>
+
+      <div id="spell-library-grid" class="spell-grid">
+        <!-- Spell icons populated dynamically -->
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Runs entirely in your browser. Your save file is never uploaded.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
