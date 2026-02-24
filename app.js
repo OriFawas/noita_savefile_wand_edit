@@ -289,7 +289,7 @@ function init() {
 
 async function loadSpellLibrary() {
   try {
-    const res = await fetch('../spells.json');
+    const res = await fetch('spells.json');
     if (!res.ok) throw new Error('Failed to fetch spells.json');
     const data = await res.json();
     spellLibrary = data;
@@ -335,7 +335,7 @@ function renderSpellLibrary() {
     const img = document.createElement('img');
     img.className = 'spell-icon';
     img.alt = s.id;
-    img.src = `../icons/${s.id}.png`;
+    img.src = `icons/${s.id}.png`;
     img.draggable = false;
     tile.appendChild(img);
 
