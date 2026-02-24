@@ -350,6 +350,11 @@ function createSpellIconElement(spellId) {
   img.className = 'spell-icon';
   img.alt = spellId || '';
   img.draggable = false;
+  img.style.visibility = 'hidden';
+
+  img.addEventListener('load', () => {
+    img.style.visibility = 'visible';
+  });
 
   const candidates = getIconSourceCandidates(spellId);
   let idx = 0;
@@ -371,8 +376,8 @@ function getIconSourceCandidates(spellId) {
   const id = (spellId || '').trim();
   const sources = new Set();
   if (id) {
-    sources.add(`icons/${id}.png`);
     sources.add(`icons/${id.toLowerCase()}.png`);
+    sources.add(`icons/${id}.png`);
     sources.add(`icons/${id.toUpperCase()}.png`);
   }
   sources.add('icons/unidentified.png');
