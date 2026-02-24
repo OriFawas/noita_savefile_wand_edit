@@ -335,8 +335,27 @@ function renderSpellLibrary() {
     const img = document.createElement('img');
     img.className = 'spell-icon';
     img.alt = s.id;
-    img.src = `icons/${s.id}.png`;
     img.draggable = false;
+
+    const iconSources = [`icons/${s.id}.png`];
+    const lowerSrc = `icons/${s.id.toLowerCase()}.png`;
+    if (!iconSources.includes(lowerSrc)) iconSources.push(lowerSrc);
+    const upperSrc = `icons/${s.id.toUpperCase()}.png`;
+    if (!iconSources.includes(upperSrc)) iconSources.push(upperSrc);
+
+    let iconIdx = 0;
+    const tryNextIconSrc = () => {
+      if (iconIdx < iconSources.length) {
+        img.src = iconSources[iconIdx++];
+      } else {
+        img.onerror = null;
+      }
+    };
+    img.onerror = () => {
+      tryNextIconSrc();
+    };
+    tryNextIconSrc();
+
     tile.appendChild(img);
 
     tile.addEventListener('dragstart', ev => {
