@@ -435,8 +435,12 @@ function renderWandPanels() {
     if (wand) {
       // Order roughly matches in-game UI (ignoring Speed)
       stats.appendChild(makeStatRow('Spells/Cast', wand.spellsCast, val => wand.spellsCast = val));
-      stats.appendChild(makeStatRow('Cast delay (frames)', wand.castDelay, val => wand.castDelay = val));
-      stats.appendChild(makeStatRow('Recharge time (frames)', wand.reloadTime, val => wand.reloadTime = val));
+      stats.appendChild(makeStatRow('Cast delay (s)', framesToSeconds(wand.castDelay), val => {
+        wand.castDelay = secondsToFrames(val);
+      }));
+      stats.appendChild(makeStatRow('Recharge time (s)', framesToSeconds(wand.reloadTime), val => {
+        wand.reloadTime = secondsToFrames(val);
+      }));
       stats.appendChild(makeStatRow('Mana max', wand.manaMax, val => wand.manaMax = val));
       stats.appendChild(makeStatRow('Mana recharge', wand.manaRecharge, val => wand.manaRecharge = val));
       stats.appendChild(makeStatRow('Mana', wand.mana, val => wand.mana = val));
@@ -623,6 +627,15 @@ function getSpellTypeClassById(spellId) {
   if (!spellId) return '';
   const spell = spellLibraryById[spellId];
   return spell ? getSpellTypeClass(spell.type) : '';
+}
+
+function framesToSeconds(frames) {
+  return frames / 60;
+}
+
+function secondsToFrames(seconds) {
+  if (!isFinite(seconds)) return 0;
+  return Math.round(seconds * 60);
 }
 
 function setActiveWandTab(index) {
