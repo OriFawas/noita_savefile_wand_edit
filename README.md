@@ -15,7 +15,3 @@ https://orifawas.github.io/noita_savefile_wand_edit/
 3. Edit stat fields or toggle shuffle to adjust wand behavior.
 4. Drag spells from the library into wand slots, or drag between slots to reorder. Remove a spell with the `×` hover button.
 5. Click **Download edited XML** to save the modified file, then replace the original (after backing it up!).
-
-## License
-
-Specify your preferred license here (e.g., MIT). Replace this section once you decide how you want others to use the tool.
