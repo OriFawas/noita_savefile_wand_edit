@@ -329,6 +329,8 @@ function renderSpellLibrary() {
     tile.className = 'spell-tile';
     tile.draggable = true;
     tile.dataset.spellId = s.id;
+    const typeClass = getSpellTypeClass(s.type);
+    if (typeClass) tile.classList.add(typeClass);
 
     const img = document.createElement('img');
     img.className = 'spell-icon';
@@ -443,6 +445,8 @@ function renderWandPanels() {
       if (card) {
         slot.classList.add('filled');
         const spellId = card.actionId;
+        const typeClass = getSpellTypeClassById(spellId);
+        if (typeClass) slot.classList.add(typeClass);
         const img = document.createElement('img');
         img.className = 'spell-icon';
         img.alt = spellId;
@@ -565,6 +569,25 @@ function handleRemoveSpell(wandIndex, slotIndex) {
   if (wand.removeCardAtSlot(slotIndex)) {
     renderWandPanels();
   }
+}
+
+function getSpellTypeClass(type) {
+  if (!type) return '';
+  const key = String(type).trim().toLowerCase();
+  const normalized = key.replace(/\s+/g, '_');
+  if (normalized === 'projectile' || normalized === 'static_projectile') return 'spell-type-projectile';
+  if (normalized === 'modifier' || normalized === 'projectile_modifier') return 'spell-type-projectile-mod';
+  if (normalized === 'utility') return 'spell-type-utility';
+  if (normalized === 'material' || normalized === 'material_spells') return 'spell-type-material';
+  if (normalized === 'other') return 'spell-type-other';
+  if (normalized === 'multicast') return 'spell-type-multicast';
+  return '';
+}
+
+function getSpellTypeClassById(spellId) {
+  if (!spellId) return '';
+  const spell = spellLibraryById[spellId];
+  return spell ? getSpellTypeClass(spell.type) : '';
 }
 
 function setActiveWandTab(index) {

@@ -28,12 +28,15 @@ body {
 .file-input-label {
   position: relative;
   overflow: hidden;
-  display: inline-block;
+  display: flex;
+  align-items: center;
   padding: 0.3rem 0.75rem;
   border: 1px solid #8b5a2b;
   border-radius: 3px;
   cursor: pointer;
   background-color: #26140b;
+  height: 2.2rem;
+  box-sizing: border-box;
 }
 
 .file-input-label input[type="file"] {
@@ -51,6 +54,10 @@ button {
   background-color: #26140b;
   color: #fdd9a7;
   cursor: pointer;
+  height: 2.2rem;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
 }
 
 button:disabled {
@@ -162,6 +169,42 @@ main {
 
 .slot.filled {
   border-style: solid;
+}
+
+.slot.spell-type-projectile,
+.spell-tile.spell-type-projectile {
+  background-color: #2a0909;
+  border-color: #b74b4b;
+}
+
+.slot.spell-type-projectile-mod,
+.spell-tile.spell-type-projectile-mod {
+  background-color: #08192f;
+  border-color: #2c6bbf;
+}
+
+.slot.spell-type-utility,
+.spell-tile.spell-type-utility {
+  background-color: #1b0a2c;
+  border-color: #7a3fad;
+}
+
+.slot.spell-type-material,
+.spell-tile.spell-type-material {
+  background-color: #06210c;
+  border-color: #3ea057;
+}
+
+.slot.spell-type-other,
+.spell-tile.spell-type-other {
+  background-color: #2d1300;
+  border-color: #e07b1a;
+}
+
+.slot.spell-type-multicast,
+.spell-tile.spell-type-multicast {
+  background-color: #082632;
+  border-color: #4bc0ff;
 }
 
 .slot-remove-btn {
