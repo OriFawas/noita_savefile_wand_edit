@@ -4,10 +4,6 @@ Tool for editing wands in Noita
 
 https://orifawas.github.io/noita_savefile_wand_edit/
 
-## Features
-
-- **Wand management** – view and edit core stats (mana, capacity, cast delay, shuffle state, etc.) surfaced from [app.js](app.js).
-
 ## Usage
 
 1. Click **Load player.xml** and select your Noita save (`%AppData%/LocalLow/Nolla_Games_Noita/save00/player.xml`).
